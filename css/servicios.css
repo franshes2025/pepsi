@@ -27,7 +27,7 @@ section h2{
 div .imageninicial{
     height: 18rem;
     width: 100%;
-    background: url('https://www.youtube.com/watch?v=6FBE7fUoRFc/imagenes/pepsi4.jpg');
+    background: url('https://github.com/franshes2025/pepsi/raw/main/imagenes/pepsi4.jpg');
     box-shadow: 0 .5rem 1rem black;
     background-position: 0 0;
     animation: mover-fondo 60s linear infinite;   
