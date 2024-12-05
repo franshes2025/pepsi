@@ -7,7 +7,7 @@ html{
 }
 .presentacion{
     height: 100vh;
-    background: url(/imagenes/produtosfondo.jpg) no-repeat;
+    background: url('https://github.com/franshes2025/pepsi/raw/main/imagenes/produtosfondo.jpg') no-repeat;
     background-size: cover;
     width: 100%;
     background-position: center;
@@ -76,7 +76,7 @@ section{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    background: url(/imagenes/rayo.jpg)no-repeat;
+    background: url('https://github.com/franshes2025/pepsi/raw/main/imagenes/rayo.jpg')no-repeat;
     background-size:cover;
     
 }
