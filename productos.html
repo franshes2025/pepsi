@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo01.css">
+    <script src="js/script01.js"></script>
+
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/productos.css">
+</head>
+<body>
+    <!--LLAMANDO AL NAVBAR CREADO EN EL JS-->
+    <div id="navbar"></div>
+
+    <!--CONTENIDO-->
+    <section class="presentacion">
+      
+        <h2 data-aos="flip-up" >Nuestros Productos</h2>
+        <span style="font-size: 2rem; color:white;">Ofrecen</span>
+        <div data-aos="flip-up">
+        <span class="rojo">Calidad</span> <span class="blanco">Certificacion</span> <span class="azul">Creacion</span>
+      </div>
+        <p data-aos-delay="flip-up">Desde 1898, Pepsi ha sido sinónimo de refresco y sabor. Descubre nuestra gama de productos diseñados para satisfacer todos los gustos</p>
+      
+    </section>   
+        
+    <div class="separador">
+
+    </div>
+        
+    <h3 data-aos="flip-up" class="h3">
+      Mire nuestras secciones
+    </h3>
+  <section>
+        
+      <div class="product">
+        <img data-aos="fade-down" src="imagenes/pepsi002.png" alt="">
+          <h2>Pepsi Max</h2>
+          <p>Pepsi sin azúcar, con todo el sabor.</p>
+          <div>
+            <a href="https://www.pepsi.es/productos" class="btn" target="_blank">Ver mas Productos</a>
+          </div>
+      </div>
+      <div class="product">
+        <img data-aos="flip-up" src="imagenes/pepsi001.png" alt="">
+        <h2>Pepsi</h2>
+        <p>La bebida refrescante original de Pepsi.</p>
+        <div>
+          <a href="https://www.pepsi.es/productos" class="btn" target="_blank">Ver mas Productos</a>
+        </div>
+    </div>
+      <div class="product">
+        <img data-aos="fade-down" src="imagenes/pepsi003.png" alt="">
+          <h2>Pepsi Diet</h2>
+          <p>La opción baja en calorías de Pepsi.</p>
+          <div>
+            <a href="https://www.pepsi.es/productos" class="btn" target="_blank">Ver mas Productos</a>
+          </div>
+      </div>
+      <div class="product">
+          <img data-aos="fade-down" src="imagenes/pepsidedelimon.png" alt="Pepsi Twist">
+          <h2>Pepsi Twist</h2>
+          <p>Pepsi con un toque de limón.</p>
+          <div>
+            <a href="https://www.pepsi.es/productos" class="btn" target="_blank">Ver mas Productos</a>
+          </div>
+      </div>
+        <!---->
+    </section>
+    <!--LLAMANDO AL FOOTER CREADO EN EL JS-->
+    <div id="footer"></div>
+
+    <!--LLAMANDO AL aos CREADO EN EL JS-->
+    <script src="js/aos.js"></script>
+
+    <script type="text/javascript">
+        AOS.init(
+          {
+            offset:200,
+        duration:1000,
+          }
+        );
+        </script>
+</body>
+</html>

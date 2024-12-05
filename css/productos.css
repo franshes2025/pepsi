@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Londrina+Sketch&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&display=swap');
+#navbar{
+    margin-bottom: 3rem;
+}
+html{
+    background-color: black;
+}
+.presentacion{
+    height: 100vh;
+    background: url(/imagenes/produtosfondo.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;
+    text-align: center;
+}
+.presentacion h2{
+    text-align: center;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: wheat;
+    font-size: 5rem;
+    
+}
+span{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 8em;
+    
+}
+span.rojo{
+    color:rgb(235, 25, 51)  ;
+}
+span.blanco{
+    color: white;
+}
+span.azul{
+    color: rgb(33, 81, 161) ;
+}
+.presentacion p{
+    
+    font-family: "Lobster Two", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.separador{
+    width: 100%;
+    height: 6rem;
+    background: linear-gradient(transparent ,  rgb(33, 81, 161) , transparent);
+}
+.h3{
+    
+    text-align: left;
+    color: white;
+    font-size: 3rem;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 2rem;
+    background: linear-gradient(transparent,rgb(235, 25, 51) , transparent);
+}
+section{
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: url(/imagenes/rayo.jpg)no-repeat;
+    background-size:cover;
+    
+}
+section .product{
+    text-align: center;
+    width: 35rem;
+    margin: 2rem;
+    padding: 1rem;  
+    background: rgba(0, 0, 0 , 0.4);
+    padding-top: 3rem;
+    padding-bottom:4rem;
+    transition: all 1s ease;
+}
+section .product:hover{
+    transform: scale(1.1);
+    background: rgba(0, 0, 0 , 0.8);
+    box-shadow: 0 .5rem 1rem white;
+
+}
+section .product h2{
+    color: mintcream;
+    font-family: "Lobster Two", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+section .product p{
+    font-size: 1.8rem;
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom:3rem ;
+}
+
+section .product img{
+    height: 25rem;
+}
+section .product .btn a{  
+    text-decoration: none;
+      
+}
+section .product .btn{
+    font-size: 1.6rem;
+    padding: 1rem;
+    
+    color: wheat;
+    border-radius: 1rem;
+    box-shadow: 0 -1rem 1rem -1rem white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all .2s linear;
+}
+section .product .btn:hover{
+    color: black;
+    background: rgba(233, 233, 233, 0.7);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 9);
+
+}
+@media(max-width:1200px) {
+    html{
+        font-size:55%;
+    }
+}
+@media(max-width:990px) {
+    .presentacion{
+        flex-direction: column;
+    }
+
+    
+}
+@media(max-width:768px){
+    section{
+        flex-direction: column;
+    }
+    section .product h2{
+        
+        box-shadow: 0 1rem 1rem -1rem ;
+    }
+    }
+    
+@media(max-width:450px){
+    html{
+        font-size: 49%;
+    }
+}

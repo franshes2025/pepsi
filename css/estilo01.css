@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body , html{
+    height: 100%;
+}
+p{
+    font-size: 20pt;
+    text-align: justify;
+    padding: 20px;
+}
+
+
+
+
+

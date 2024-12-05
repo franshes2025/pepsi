@@ -1,0 +1,70 @@
+
+footer[div]{
+    background: transparent , none;
+}
+
+footer{
+    margin-top: auto;
+    padding-top: 3rem;
+    background:linear-gradient(rgba(0, 0, 0 ), black);
+    color: white;
+    
+}
+footer .caja-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+footer .caja-contenedor .caja{
+    flex: 1 1 25rem;
+    margin: 2rem;
+    
+}
+footer .caja-contenedor .caja h3{
+    font-size: 2.2rem;
+    padding: 1rem 0;
+    color: wheat;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+footer .caja-contenedor .caja p{
+    font-size: 1.3rem;
+    padding: .5rem 0;
+    color: whitesmoke;
+}
+footer .caja-contenedor .caja a{
+    display: block;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    color:wheat;
+
+}
+footer .caja-contenedor .caja a:hover{
+    text-decoration: underline;
+}
+footer .caja-contenedor .caja .info{
+    display: flex;
+    align-items: center;
+}
+footer .caja-contenedor .caja .info i{
+    margin: .5rem 0;
+    margin-right:1rem;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1.8rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+    
+
+}
+footer .credits{
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: wheat;
+    border-top: .1rem solid wheat;
+    padding: 1.5rem 1rem;
+    text-align: center;
+}

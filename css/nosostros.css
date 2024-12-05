@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background: url(/imagenes/fondo\ music2.jpg);
+}
+.section1{
+    
+    
+    background: url(/imagenes/fondo\ music2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    padding: 3rem;
+    padding-top: 11rem;
+    
+    
+    
+}
+
+.section1 h1{
+    font-family: "Poppins" ,sans-serif,'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: rgb(216, 216, 216);
+    font-size: 3rem;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2rem 1rem;
+    
+    
+}
+.section1 p.intro{
+    color: aliceblue;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.section1 .box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+div[class="contenido"]{
+    display: flex;
+    flex: 1 1 30rem;
+    background: rgb(7, 7, 63);
+    border-radius:.5rem;
+    border:.1rem solid rgba(0, 0, b0lue, .2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    margin: 1.5rem;
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    transition: .2s linear;
+    align-items: center;
+    text-align: left;
+    transition: all .3s ease-in;
+    border:.1rem solid rgb(68, 68, 128) ;
+}
+.contenido:hover{
+    transform: scale(1.03);
+    box-shadow: 0 .5rem 1rem white;
+}
+.contenido img{
+    height: 15rem;
+    margin-left: 2rem;
+    text-shadow: 0 .5rem 1rem black;
+}
+.contenido h2{
+    font-size: 2.3rem;
+    padding: 1rem 0;
+    color: wheat;
+}
+.contenido p{
+    
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    color: aliceblue;
+}
+
+/*=============================================================*/
+.heading{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.986);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 3.5rem;
+    padding: 1rem;
+    text-shadow: 2rem black;
+}
+.Detalles{
+    background: url(/imagenes/pepsi3.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+    box-sizing: border-box;
+}
+
+.Detalles .caja-contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Detalles .caja-contenedor .caja{
+    flex: 1 1 30rem;
+    background: radial-gradient(blue ,darkblue ,transparent);
+    border-radius:.5rem;
+    border:.1rem solid rgba(0, 0, b0lue, .2);
+    box-shadow: 0 .5rem 1rem rgba(250, 250, 250, 0.938);
+    margin: 1.5rem;
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    transition: .2s linear;
+}
+.Detalles .caja-contenedor .caja img{
+    height: 18rem;
+}
+
+.Detalles .caja-contenedor .caja h3{
+    font-size: 2rem;
+    color:wheat;
+    padding:3rem;
+}
+.Detalles .caja-contenedor .caja p{
+    font-size: 1.4rem;
+    color:white;
+    padding:1rem 0;
+}
+
+.btn{
+    display:inline-block;
+    margin-top: 1rem;
+    padding: .8rem 3rem;
+    border-radius: 5rem;
+    background: rgb(223, 223, 223);
+    font-size: 1.8rem;
+    color: black;
+    cursor: pointer;
+    border: .1rem solid black ;
+    box-shadow: 0 1.5rem 1rem rgba(0, 0, 0 , .1);
+    transition: all .3s linear;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+@media(max-width:1200px) {
+    html{
+        font-size:55%;
+    }
+}
+@media(max-width:990px) {
+    .contenido{
+        flex-direction: column;
+    }
+    
+}
+@media(max-width:768px){
+    
+
+    }
+    
+@media(max-width:450px){
+    html{
+        font-size: 49%;
+    }
+}
