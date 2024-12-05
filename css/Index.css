@@ -21,7 +21,8 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(/imagenes/fondo\ music.jpg);
+    /*url('https://github.com/franshes2025/Pagina_BarberShop2/raw/main/img/fondo.png'*/
+    background: url('https://github.com/franshes2025/pepsi/raw/main/imagenes/fondomusic.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
